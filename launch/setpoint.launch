@@ -1,0 +1,12 @@
+<launch>
+	
+   <node pkg="offboard_pkg" type="offboard_node" name="offboard_node" output="screen">
+
+   <param name="height"     value="0.4"/>
+   <param name="side"    value="1"/>
+   <param name="auto_arm_offboard"   type="bool"  value="false"/>
+
+   </node>
+</launch>
+
+
