@@ -1,3 +1,13 @@
+# t265_to_mavros
+
+## 功能包部署
+```
+mkdir t265_to_mavros_ws/src
+cd  t265_to_mavros_ws/src
+git clone https://github.com/maxibooksiyi/t265_to_mavros.git
+cd ..
+catkin_make
+```
 ## T265定点
 ### 命令启动
 可以选择通过sh脚本一次性启动所有命令，或者自己依次手动输入命令启动。
